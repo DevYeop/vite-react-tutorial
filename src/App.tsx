@@ -26,8 +26,8 @@ const App: React.FC = () => {
   const [count, setCount] = useState(0);
 
   const user: User = {
-    name: 'user',
-    age: 33,
+    name: '엽스',
+    age: 35,
   };
 
   function MyButton() {
@@ -43,10 +43,10 @@ const App: React.FC = () => {
       <MyButton />
       <MyButton2 />
       <UserInfo user={user} />
-      {/* <img
+      <img
         className="avatar"
         src="https://image.msscdn.net/thumbnails/images/prd_img/20240806/4298658/detail_4298658_17254282117044_big.png?w=1200"
-      /> */}
+      />
     </div>
   );
 };
