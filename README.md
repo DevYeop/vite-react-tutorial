@@ -1,3 +1,7 @@
+# revert-test :
+
+리버스1
+
 # 복습한 내용 :
 
 컴포넌트 선언 (es6, commonJs)
